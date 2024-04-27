@@ -1,0 +1,30 @@
+html,body {
+  margin: 0;
+  background:white;
+}
+
+.header{
+  width:100%;
+  height:50px;
+  background: yellow;
+}
+
+.footer{
+  width:100%;
+  height:30px;
+  background: yellow;
+}
+
+.Content{
+  width :100%;
+  height: calc(100% - 80px);
+
+}
+
+.fullheight{
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  background:green;
+
+}

@@ -1,0 +1,58 @@
+/* Vote.css */
+
+/* Body styles */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Main styles */
+  main {
+    flex: 1 0 auto;
+  }
+  
+  /* Navigation styles */
+  nav {
+    height: 120px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Footer styles */
+  footer {
+    height: 70px;
+  }
+  
+  /* Custom styles */
+  .brand-logo {
+    padding-left: 250px;
+  }
+  
+  #card-alert {
+    margin-top: 20px;
+  }
+  
+  /* Media query for small screens */
+  @media screen and (max-width: 600px) {
+    .brand-logo {
+      padding-left: 10px;
+    }
+  }
+  

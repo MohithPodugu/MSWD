@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* Choose your preferred font family */
+  }
+  
+  /* Login Page Layout */
+  .fullheight {
+    display: flex; /* Allow stacking of elements vertically */
+    min-height: 100vh; /* Set minimum height for full viewport */
+    flex-direction: column; /* Stack elements top to bottom */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+  }
+  
+  /* Header */
+  .loginheader {
+    width: 100%; /* Span full width */
+    text-align: center; /* Center text */
+    padding: 1rem; /* Add some padding */
+    font-size: 1.2rem; /* Adjust font size if needed */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+  }
+  
+  /* Login/Registration Content */
+  #logincontent {
+    display: flex; /* Allow side-by-side positioning */
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for responsiveness */
+  }
+  
+  /* Login/Registration Popups */
+  .popup {
+    display: none; /* Initially hide both popups */
+    position: relative; /* Allow absolute positioning of child elements */
+    overflow: hidden; /* Prevent scrollbars if content overflows */
+  }
+  
+  .popupwindow {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 2rem; /* Add some padding */
+    border-radius: 5px; /* Rounded corners with 5px radius */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Login Popup */
+  #login.popup.block {
+    display: block; /* Show login popup when class 'block' is added */
+  }
+  
+  #logintxt {
+    text-align: center;
+    font-size: 1.5rem; /* Adjust font size for header */
+    margin-bottom: 1rem; /* Add space below header */
+  }
+  
+  .innerwindow {
+    display: flex; /* Allow vertical layout of elements */
+    flex-direction: column; /* Stack elements top to bottom */
+  }
+  
+  .linklabel {
+    cursor: pointer; /* Indicate clickable link */
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .linklabel:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .textbox {
+    padding: 0.5rem 1rem; /* Add padding for better user experience */
+    border: 1px solid #f0f0f0; /* Light gray border */
+    border-radius: 3px; /* Slightly rounded corners for text fields */
+    margin-bottom: 1rem; /* Add space between elements */
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem; /* Adjust button padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Indicate clickable button */
+    background-color: #007bff; /* Blue button background */
+    color: white; /* White button text */
+    font-weight: bold; /* Bold text for buttons */
+    transition: background-color 0.2s ease-in-out; /* Smooth color transition on hover */
+  }
+  
+  .btn:hover {
+    background-color: #0067cc; /* Darker blue on hover */
+  }
+  
+  /* Space between Elements (Adjust as needed) */
+  .space {
+    height: 10px; /* Adjust spacing between elements */
+  }
+  
+  /* Registration Popup */
+  #registration.popup.block {
+    display: block; /* Show registration popup when class 'block' is added */
+  }
+  
+  #regtxt {
+    text-align: center;
+    font-size: 1.5rem; /* Adjust font size for header */
+    margin-bottom: 1rem; /* Add space below header */
+  }
+  
+  /* Footer */
+  #loginfooter {
+    width: 100%; /* Span full width */
+    
+  }
